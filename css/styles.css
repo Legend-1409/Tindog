@@ -1,0 +1,174 @@
+body {
+  font-family: 'Ubuntu', sans-serif;
+  font-weight: 400;
+  text-align: center;
+}
+
+h1,h2,h3,h4,h5,h6 {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 800;
+}
+
+p {
+  color: #8f8f8f;
+}
+
+.container-fluid {
+  font-size: 1.3rem;
+  padding: 3% 15%;
+}
+
+/* Nav-bar */
+.brand-name {
+  font-size: 2.5rem;
+}
+
+.nav-item {
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+.nav-link {
+  font-size: 1.2rem;
+}
+
+/* Title */
+#title {
+  background-color: #ff4c68;
+  text-align: left;
+}
+
+.title-h1 {
+  color: white;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 3.5rem;
+  line-height: 1.5;
+  margin-bottom: 30px;
+}
+
+.title-class {
+  margin-top: 80px;
+}
+
+.title-photo {
+  position: relative;
+  top: 80px;
+  transform: rotate(25deg);
+  width: 70%;
+  left: 50px;
+}
+
+@media (max-width: 1000px) {
+  #title {
+    text-align: center;
+  }
+
+  .title-photo {
+    transform: rotate(0deg);
+    position: static;
+    width: 50%;
+  }
+}
+
+/* features */
+#features {
+  position: relative;
+  background-color: white;
+  padding: 7% 15%;
+}
+
+.features-h3 {
+  font-size: 1.5rem;
+}
+
+.features-box {
+  padding: 5%;
+}
+
+.features-images {
+  color: #ef8172;
+  /* font-size: 3rem; */
+  /* padding-bottom: 15px; */
+  margin-bottom: 1rem;
+}
+
+.features-images:hover {
+  color: #ff4c68;
+}
+
+/* Testimonial Section */
+#testimonials {
+  background-color: #ef8172;
+  color: white;
+}
+
+.testimonials-image {
+  border-radius: 100%;
+  margin: 20px;
+  width: 10%;
+}
+
+.carousel-item {
+  padding: 7% 15%;
+}
+
+.testimonials-h2 {
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+/* Press section */
+#press {
+  background-color: #ef8172;
+  padding-bottom: 3%;
+}
+
+.press-images {
+  margin: 20px 20px 50px;
+  width: 15%;
+}
+
+/* Pricing Section */
+#pricing {
+  padding: 100px;
+}
+
+.pricing-h2 {
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+.pricing-h3 {
+  font-size: 1.5rem;
+}
+
+.heading-price {
+  border: 1px solid;
+  border-color: grey;
+  border-color: rgba(0, 0, 0, .125);
+  border-radius: .3rem;
+}
+
+.pricing-card {
+  border: 0;
+  padding: 3% 2%;
+}
+
+/* CTA section */
+
+#cta {
+  background-color: #ff4c68;
+  padding: 7% 15%;
+  color: white;
+}
+
+/* Footer section */
+
+#footer {
+  background-color: #fff;
+  padding: 7% 15%;
+}
+
+.footer-icon {
+  margin: 15px 10px;
+}
